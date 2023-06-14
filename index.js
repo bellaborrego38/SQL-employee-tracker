@@ -415,7 +415,6 @@ function addEmployee() {
     })
 }
 
-// Exit the application
 function quit() {
   console.log("bye bye!");
   process.exit();
