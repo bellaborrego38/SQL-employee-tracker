@@ -3,7 +3,7 @@ const logo = require("asciiart-logo");
 const db = require("./db");
 
 async function init() {
-  const logoText = logo({ name: "SQL EMPLOYEE-TRACKER" }).render();
+  const logoText = logo({ name: "EMPLOYEE-TRACKER" }).render();
   console.log(logoText);
 
   await loadMainPrompts();
